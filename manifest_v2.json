@@ -1,18 +1,13 @@
-{
-    "name" : "vail_verifier_extension",
+{ "name" : "vail_verifier_extension",
     "version" : "1.0",
     "description" : "vail_verifier_extension",
     "permissions": [],
     "content_scripts": [
-        {
-            "matches": ["*://*.localhost/*"],
+        {  "matches": ["*://*.localhost/*"],
             "js": [
                 "vail_verifier_extension.js", "run_wasm.js"
             ]
         }
-    ],
-    "web_accessible_resources": [
+    ], "web_accessible_resources": [
         "vail_verifier_extension_bg.wasm"
-    ],
-    "manifest_version": 2
-}
+    ],"manifest_version": 2}
