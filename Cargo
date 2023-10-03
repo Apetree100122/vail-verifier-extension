@@ -1,0 +1,8 @@
+cargo install cargo-generate
+cargo install wasm-pack
+
+cargo generate
+--git
+https://github.com/Mubelotix/wasm-extension-template 
+--name amazing-extension
+sh build.sh
